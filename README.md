@@ -1,6 +1,8 @@
 # ProyectoFinalWeb10
 Proyecto final para  Aplicaciones Web Progresivas - 1002
 
+------------------------------------------------------------------------------------------------------------
+
 Base de datos, tablas:
 
   1.-  perfil
@@ -12,3 +14,5 @@ Base de datos, tablas:
     pass: la contraseña, máximo 10 caracteres.
     nombre: nombre completo del usuario.
     idperfil: a qué perfil pertenece (1 o 2 según la tabla perfil).
+
+------------------------------------------------------------------------------------------------------------

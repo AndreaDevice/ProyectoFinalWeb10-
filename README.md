@@ -2,6 +2,7 @@
 Proyecto final para  Aplicaciones Web Progresivas - 1002
 
 Base de datos, tablas:
+
   1.-  perfil
     -id: (ejemplo 1, 2, 3)
     -nombre: por ejemplo ("Administrador", "Empleado", etc.)

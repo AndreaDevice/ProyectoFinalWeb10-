@@ -38,6 +38,22 @@ Base de datos, tablas:
 
 ------------------------------------------------------------------------------------------------------------
 
+Versiones Utilizadas:
+
+NetBeans 9
+
+GlassFish 5.0 o 5.1
+
+JDK 8 (Java SE 8)
+
+MySQL Server 5.7
+
+MySQL Connector/J 5.1.49 (o 8.0, pero 5.1 funciona mejor con GlassFish)
+
+(de momento es lo que se esta haciendo)
+
+------------------------------------------------------------------------------------------------------------
+
 Criterios:
 
   1.- Inserción de registros en la Base | 20 Pts.

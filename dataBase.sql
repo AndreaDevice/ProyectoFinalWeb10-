@@ -1,6 +1,6 @@
 /* ============================================================
    BASE DE DATOS: ejemplo
-   Autor: (Andrea Pearl "marco")
+   Autor: Andrea Pearl "marco"
    Descripción: Modelo base para gestión de usuarios y perfiles
    Versión: 1.0
    ============================================================ */
@@ -37,7 +37,7 @@ INSERT INTO perfil (nombre) VALUES
 
 CREATE TABLE IF NOT EXISTS usuario (
     usuario VARCHAR(30) NOT NULL,
-    pass VARCHAR(255) NOT NULL,  -- espacio para hash seguro
+    pass VARCHAR(255) NOT NULL,
     nombre VARCHAR(100) NOT NULL,
     idperfil INT UNSIGNED NOT NULL,
     fecha_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -52,12 +52,11 @@ CREATE TABLE IF NOT EXISTS usuario (
 ) ENGINE=InnoDB;
 
 /* Datos iniciales de usuarios */
-/* Nota: en un entorno real deberías guardar contraseñas hasheadas */
 INSERT INTO usuario (usuario, pass, nombre, idperfil) VALUES
 ('alex', '1234', 'Alejandro Vala', 1),
 ('juan', '5678', 'Juan Rosas', 2);
 
 /* ============================================================
-   Índices adicionales (mejoran rendimiento en consultas grandes)
+   Índices adicionales
    ============================================================ */
 CREATE INDEX idx_usuario_perfil ON usuario(idperfil);

@@ -40,7 +40,7 @@ Base de datos, tablas:
 
 Versiones Utilizadas:
 
-NetBeans 9
+NetBeans 11.2
 
 GlassFish 5.0 o 5.1
 

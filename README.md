@@ -40,17 +40,22 @@ Base de datos, tablas:
 
 Versiones Utilizadas:
 
-NetBeans 11.2
+NetBeans 8
 
 GlassFish 5.0 o 5.1
 
-JDK 8 (Java SE 8)
+JDK 1.8.0 (Java SE 8)
 
 MySQL Server 5.7
 
 MySQL Connector/J 5.1.49 (o 8.0, pero 5.1 funciona mejor con GlassFish)
 
 (de momento es lo que se esta haciendo)
+
+------------------------------------------------------------------------------------------------------------
+
+http://localhost:8080/WebApplication1/inicio.jsp
+
 
 ------------------------------------------------------------------------------------------------------------
 
